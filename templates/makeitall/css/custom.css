@@ -1,0 +1,14 @@
+.btn-secondary {
+    background-color: #eeb82a;
+    border-color: #eeb82a;
+}
+.search-tab {
+    border-color: #eeb82a;
+    color: #eeb82a;
+}
+
+.search-tab:hover {
+    background-color: #eeb82a;
+    border-color: #eeb82a;
+}
+
