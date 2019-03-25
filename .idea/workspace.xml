@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="52476729-6217-4aed-b142-8800cf96a0ab" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mod_bootstrapblock/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mod_bootstrapblock/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mod_jumbotron/tmpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mod_jumbotron/tmpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/makeitall/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/makeitall/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,10 +20,85 @@
     <drupalPath />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/makeitall/index.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#5#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mod_bootstrapblock.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>templatebac</find>
+      <find>t3</find>
+      <find>fixed</find>
+      <find>img</find>
+      <find>navbar</find>
+      <find>search</find>
+      <find>brand</find>
+      <find>inde</find>
+      <find>list</find>
+      <find>brand_image</find>
+      <find>bran</find>
+      <find>boots</find>
+      <find>boot</find>
+      <find>bootstrap_menu</find>
+      <find>backgroun</find>
+      <find>buttonsty</find>
+      <find>heading</find>
+      <find>color</find>
+      <find>glyph</find>
+      <find>gl</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/protostar/index.php" />
+        <option value="$PROJECT_DIR$/templates/protostar/templateDetails.xml" />
+        <option value="$PROJECT_DIR$/templates/protostar/css/template.css" />
+        <option value="$PROJECT_DIR$/modules/mod_bootstrapnav/helper.php" />
+        <option value="$PROJECT_DIR$/templates/makeitall/templateDetails.xml" />
+        <option value="$PROJECT_DIR$/modules/mod_bootstrapnav/mod_bootstrapnav.xml" />
+        <option value="$PROJECT_DIR$/modules/mod_bootstrapnav/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/modules/mod_bootstrapnav/mod_bootstrapnav.php" />
+        <option value="$PROJECT_DIR$/modules/mod_jumbotron/mod_jumbotron.php" />
+        <option value="$PROJECT_DIR$/modules/mod_jumbotron/mod_jumbotron.xml" />
+        <option value="$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/test" />
+        <option value="$PROJECT_DIR$/templates/makeitall/css/custom.css" />
+        <option value="$PROJECT_DIR$/modules/mod_makeitallSearch/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/modules/mod_jumbotron/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/modules/mod_makeitallproblemdisplay/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php" />
+        <option value="$PROJECT_DIR$/templates/makeitall/index.php" />
+        <option value="$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php" />
+      </list>
+    </option>
   </component>
   <component name="JoomlaConfiguration" enabled="true">
     <joomlaConfigPath>$PROJECT_DIR$/configuration.php</joomlaConfigPath>
@@ -60,7 +140,7 @@
             <path>
               <item name="makeitall" type="b2602c69:ProjectViewProjectNode" />
               <item name="makeitall" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="makeitall" type="b2602c69:ProjectViewProjectNode" />
@@ -71,7 +151,7 @@
               <item name="makeitall" type="b2602c69:ProjectViewProjectNode" />
               <item name="makeitall" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protostar" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="makeitall" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -85,10 +165,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/makeitall/images" />
       <recent name="$PROJECT_DIR$/templates/protostar" />
     </key>
   </component>
@@ -116,35 +197,43 @@
       <updated>1553167918385</updated>
       <workItem from="1553167920241" duration="6287000" />
       <workItem from="1553191570057" duration="2000" />
+      <workItem from="1553191598492" duration="448000" />
+      <workItem from="1553265797114" duration="9000" />
+      <workItem from="1553265953947" duration="17892000" />
+      <workItem from="1553301949395" duration="1732000" />
+      <workItem from="1553333878134" duration="88000" />
+      <workItem from="1553360318814" duration="10694000" />
+      <workItem from="1553422326480" duration="9598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6289000" />
+    <option name="totallyTimeSpent" value="46750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.121212125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,10 +245,107 @@
   <component name="WordPressConfiguration">
     <wordpressPath />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/protostar/index.php</url>
+          <line>134</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/protostar/index.php</url>
+          <line>34</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/mod_bootstrapnav/tmpl/default.php</url>
+          <line>147</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php</url>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/makeitall/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="84" lean-forward="true" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/makeitall/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/protostar/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2561" />
+        <state relative-caret-position="2295">
+          <caret line="153" column="24" lean-forward="true" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+            <element signature="e#831#921#0#PHP" />
+            <element signature="e#896#921#0#PHP" />
+            <element signature="e#1350#1672#0#PHP" />
+            <element signature="e#1692#2281#0#PHP" />
+            <element signature="e#2747#3006#0#PHP" />
+            <element signature="e#2821#2899#0#PHP" />
+            <element signature="e#2900#2978#0#PHP" />
+            <element signature="e#2979#3006#0#PHP" />
+            <element signature="e#3041#3475#0#PHP" />
+            <element signature="e#3185#3378#0#PHP" />
+            <element signature="e#3379#3475#0#PHP" />
+            <element signature="e#3715#3720#0#PHP" />
+            <element signature="n#style#0;n#jdoc:include#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapnav/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="165" column="24" lean-forward="true" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapnav/mod_bootstrapnav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapnav/mod_bootstrapnav.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="155" column="32" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="32" />
+          <folding>
+            <element signature="n#field#0;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#1;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#2;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#4;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#5;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#6;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#7;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#13;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#fieldset#1;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/makeitall/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_search/router.php">
@@ -171,6 +357,231 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="288" column="21" lean-forward="true" selection-start-line="288" selection-start-column="21" selection-end-line="288" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/beez3/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/protostar/css/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/protostar/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="30" selection-start-line="30" selection-end-line="44" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapnav/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="436" column="2" lean-forward="true" selection-start-line="436" selection-start-column="2" selection-end-line="436" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapnav/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#559#623#0#HTML" />
+            <element signature="e#645#734#0#HTML" />
+            <element signature="e#761#862#0#HTML" />
+            <element signature="e#898#926#0#HTML" />
+            <element signature="e#1004#1026#0#HTML" />
+            <element signature="e#1053#1239#0#HTML" />
+            <element signature="e#1264#1452#0#HTML" />
+            <element signature="e#1593#1665#0#HTML" />
+            <element signature="e#1667#1672#0#PHP" />
+            <element signature="e#1811#1838#0#HTML" />
+            <element signature="e#1873#1949#0#HTML" />
+            <element signature="e#1990#2013#0#HTML" />
+            <element signature="e#2043#2293#0#HTML" />
+            <element signature="e#2327#2359#0#HTML" />
+            <element signature="e#2389#2409#0#HTML" />
+            <element signature="e#2454#2612#0#HTML" />
+            <element signature="e#2620#2640#0#HTML" />
+            <element signature="e#2651#2670#0#HTML" />
+            <element signature="e#2667#2713#0#HTML" />
+            <element signature="e#2750#2841#0#HTML" />
+            <element signature="e#2725#4432#0#HTML" />
+            <element signature="e#2857#3231#0#HTML" />
+            <element signature="e#3264#4163#0#HTML" />
+            <element signature="e#4377#4574#0#PHP" />
+            <element signature="e#4590#5026#0#HTML" />
+            <element signature="e#4487#4917#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapnav/mod_bootstrapnav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapnav/mod_bootstrapnav.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="60" column="42" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_jumbotron/mod_jumbotron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_jumbotron/mod_jumbotron.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="133" column="27" lean-forward="true" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
+          <folding>
+            <element signature="n#files#0;n#extension#0;n#!!top" />
+            <element signature="n#field#0;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#1;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#2;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#3;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#4;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#5;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#6;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#7;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#8;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#9;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#10;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#11;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+            <element signature="n#field#15;n#fieldset#0;n#fields#0;n#config#0;n#extension#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/makeitall/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/makeitall/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_search/mod_search.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1295">
+          <caret line="151" column="41" selection-start-line="151" selection-start-column="41" selection-end-line="151" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_search/mod_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" column="86" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_search/helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/protostar/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="219" column="53" lean-forward="true" selection-start-line="219" selection-start-column="53" selection-end-line="219" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+            <element signature="e#831#921#0#PHP" />
+            <element signature="e#896#921#0#PHP" />
+            <element signature="e#1350#1672#0#PHP" />
+            <element signature="e#1692#2281#0#PHP" />
+            <element signature="e#2747#3006#0#PHP" />
+            <element signature="e#2821#2899#0#PHP" />
+            <element signature="e#2900#2978#0#PHP" />
+            <element signature="e#2979#3006#0#PHP" />
+            <element signature="e#3041#3475#0#PHP" />
+            <element signature="e#3185#3378#0#PHP" />
+            <element signature="e#3379#3475#0#PHP" />
+            <element signature="e#3715#3720#0#PHP" />
+            <element signature="n#style#0;n#jdoc:include#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_breadcrumbs/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-446" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_jumbotron/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/helper.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_makeitallproblemdisplay/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/makeitall/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>

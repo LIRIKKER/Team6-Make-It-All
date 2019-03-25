@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+    <name>makeitall</name>
+    <version>1.0</version>
+    <creationDate>-</creationDate>
+    <creationAuthor>-</creationAuthor>
+    <authorEmail>-</authorEmail>
+    <authorUrl>-</authorUrl>
+    <copyright>-</copyright>
+    <license>-</license>
+    <version>-</version>
+    <desctiprion>-</desctiprion>
+
+    <files>
+        <filename>favicon.ico</filename>
+        <filename>index.html</filename>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+    </files>
+
+    <positions>
+        <position>menu</position>
+        <position>showcase</position>
+        <position>box1</position>
+        <position>box2</position>
+    </positions>
+
+    <config>
+        <fields name="params">
+            <fieldset name="general" label="General">
+
+                <field
+                        name="logoFile"
+                        type="media"
+                        label="TPL_MAKE_IT_ALL_LOGO_LABEL"
+                        description="TPL_MAKE_IT_ALL_LOGO_DESC"
+                        class=""
+                        default=""
+                />
+
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>
