@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="52476729-6217-4aed-b142-8800cf96a0ab" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mod_bootstrapblock/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mod_bootstrapblock/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/mod_jumbotron/tmpl/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/mod_jumbotron/tmpl/default.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/makeitall/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/makeitall/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,18 +23,26 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/makeitall/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="33" column="14" lean-forward="true" selection-end-line="59" />
+            <state relative-caret-position="410">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#5#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mod_bootstrapblock.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -76,11 +87,14 @@
         <option value="$PROJECT_DIR$/modules/mod_bootstrapnav/mod_bootstrapnav.xml" />
         <option value="$PROJECT_DIR$/modules/mod_bootstrapnav/tmpl/default.php" />
         <option value="$PROJECT_DIR$/modules/mod_bootstrapnav/mod_bootstrapnav.php" />
-        <option value="$PROJECT_DIR$/modules/mod_jumbotron/tmpl/default.php" />
         <option value="$PROJECT_DIR$/modules/mod_jumbotron/mod_jumbotron.php" />
         <option value="$PROJECT_DIR$/modules/mod_jumbotron/mod_jumbotron.xml" />
         <option value="$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/test" />
         <option value="$PROJECT_DIR$/templates/makeitall/css/custom.css" />
+        <option value="$PROJECT_DIR$/modules/mod_makeitallSearch/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/modules/mod_jumbotron/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/modules/mod_makeitallproblemdisplay/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php" />
         <option value="$PROJECT_DIR$/templates/makeitall/index.php" />
         <option value="$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php" />
       </list>
@@ -131,15 +145,13 @@
             <path>
               <item name="makeitall" type="b2602c69:ProjectViewProjectNode" />
               <item name="makeitall" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mod_bootstrapblock" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="makeitall" type="b2602c69:ProjectViewProjectNode" />
               <item name="makeitall" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mod_bootstrapblock" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tmpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="makeitall" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -191,12 +203,12 @@
       <workItem from="1553301949395" duration="1732000" />
       <workItem from="1553333878134" duration="88000" />
       <workItem from="1553360318814" duration="10694000" />
-      <workItem from="1553422326480" duration="4282000" />
+      <workItem from="1553422326480" duration="9598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41434000" />
+    <option name="totallyTimeSpent" value="46750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -212,7 +224,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.121212125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -251,8 +263,12 @@
           <line>147</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php</url>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -426,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_jumbotron/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_jumbotron/mod_jumbotron.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -501,12 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/helper.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -537,17 +540,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/makeitall/index.php">
+    <entry file="file://$PROJECT_DIR$/modules/mod_breadcrumbs/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="-446" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_jumbotron/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/helper.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_makeitallproblemdisplay/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/mod_bootstrapblock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/makeitall/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_bootstrapblock/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="33" column="14" lean-forward="true" selection-end-line="59" />
+        <state relative-caret-position="410">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#5#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>

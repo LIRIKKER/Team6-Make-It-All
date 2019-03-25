@@ -9,7 +9,6 @@
 //No Direct Access
 defined('_JEXEC') or die;
 
-
 /* Params */
 $moduleclass_sfx = 	htmlspecialchars($params->get('moduleclass_sfx'));
 $show_read_more =  	$params->get('show_read_more',1);
@@ -26,5 +25,5 @@ $buttonstyle=  $params->get('buttonstyle','btn btn-primary');
 // Include the syndicate functions only once
 require_once dirname(__FILE__).'/helper.php';
 
-require JModuleHelper::getLayoutPath('mod_bootstrapblock', $params->get('layout', 'default'));
+require JModuleHelper::getLayoutPath('mod_makeitallProblemDisplay', $params->get('layout', 'default'));
 ?>

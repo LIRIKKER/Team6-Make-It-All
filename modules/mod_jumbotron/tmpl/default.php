@@ -54,18 +54,29 @@ defined('_JEXEC') or die;
 
 <div class="jumbotron <?php echo $moduleclass_sfx; ?>">
   <div class="container">
-      <h1><?php echo $header_text; ?></h1>
-      <p><?php echo $paragraph_text; ?></p>
-      <?php if(isset($foreground_image)) : ?>
-          <p class="foreground_image_wrap">
-              <img class="foreground_image" src="<?php echo JURI::base(); ?><?php echo $foreground_image; ?>" alt="<?php echo $header_text; ?>" />
-          </p>
-      <?php endif; ?>
+      <h1>
+          <?php echo $header_text; ?>
+          <a class="<?php echo $buttonstyle; ?>" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Expand »
+          </a>
+      </h1>
 
-      <?php if($show_read_more) : ?>
-          <p>
-              <a class="<?php echo $buttonstyle; ?>" role="button" href="<?php echo $read_more_link; ?>"><?php echo $read_more_text; ?></a>
-          </p>
-      <?php endif; ?>
-  </div><!-- /.container -->
-</div><!-- /.jumbotron -->
+      <div class="collapse" id="collapseExample">
+          <div>
+              <p><?php echo $paragraph_text; ?></p>
+              <?php if(isset($foreground_image)) : ?>
+                  <p class="foreground_image_wrap">
+                      <img class="foreground_image" src="<?php echo JURI::base(); ?><?php echo $foreground_image; ?>" alt="<?php echo $header_text; ?>" />
+                  </p>
+              <?php endif; ?>
+          </div>
+
+          <?php if($show_read_more) : ?>
+              <p>
+                  <a class="<?php echo $buttonstyle; ?>" role="button" href="<?php echo $read_more_link; ?>"><?php echo $read_more_text; ?></a>
+              </p>
+          <?php endif; ?>
+
+      </div>
+  </div>
+</div>

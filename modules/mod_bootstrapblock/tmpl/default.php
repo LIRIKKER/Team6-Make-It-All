@@ -9,6 +9,22 @@
 //No Direct Access
 defined('_JEXEC') or die;
 ?>
+<?php
+// Database Connection
+$db = JFactory::getDbo();
+
+// Create a new query object.
+$query = $db->getQuery(true);
+
+$query->select($db->quoteName(array('problemType')));
+$query->from($db->quoteName('types'));
+
+// Reset the query using our newly populated query object.
+$db->setQuery($query);
+
+$typesTable = $db->loadRowList()
+?>
+
 <style>
 	.bootstrap_block h3{color:<?php echo $headingtextcolor; ?>;}
 	.bootstrap_block p{color:<?php echo $paragraphtextcolor; ?>;}
@@ -41,9 +57,12 @@ defined('_JEXEC') or die;
             <input type="text" class="form-control form-control-sm" >
         </div>
 
+<!--        --><?php //print_r($typesTable)?>
+
         <div class="form-group">
             <label for="exampleFormControlSelect1">Problem Type</label> <!-- Dynamic -->
             <select class="form-control form-control-sm" id="exampleFormControlSelect1">
+
                 <option>Printing</option>
                 <option>Printer</option>
             </select>
